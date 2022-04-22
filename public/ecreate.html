@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREATE EVENTS</title>
+</head>
+<body>
+    <div class='container'>
+        <div class='columns is-centered'>
+            <div class='column is-5'>
+                <div>
+                    <label>CREATION OF EVENTS</label>
+                </div>
+                <form action='/event' method='POST'>
+                    <div>
+                        <div>
+                            <label class='label'>
+                                Name Event
+                            </label>
+                        </div>
+
+                        <input class='input' type='text'
+                            name='name_event' placeholder='Name of the event'
+                            for='name_event'>
+
+                        <div>
+                            <label class='label'>
+                                Type Event
+                            </label>
+                        </div>
+
+                        <input class='input' type='text'
+                            name='type_event' placeholder='Enterprise, Finance, Education, Leisure, Sporty, Administrative, Social, Convention'
+                            for='type_event'>
+
+                        <div>
+                            <label class='label'>
+                                Size Event
+                            </label>
+                        </div>
+
+                        <input class='input' type='text'
+                            name='size_event' placeholder='Mini, Small, Big, Mega'
+                            for='size_event'>
+
+                        <div>
+                            <label class='label'>
+                                Area Event
+                            </label>
+                        </div>
+
+                        <input class='input' type='text'
+                            name='area_event' placeholder='Area of the event'
+                            for='area_event'>
+                        </div>
+
+                        <div>
+                            <label class='label'>
+                                Start DATE Event
+                            </label>
+                        </div>
+
+                        <input class='input' type='date'
+                            name='day_start' placeholder='Date start for the event'
+                            for='day_start'>
+                            
+                            <div>
+                                <label class='label'>
+                                    Start Hour Event
+                                </label>
+                            </div>
+    
+                            <input class='input' type='text'
+                                name='hour_start' placeholder='Hour start for the event'
+                                for='hour_start'>    
+
+                        <div>
+                            <label class='label'>
+                                End DATE Event
+                            </label>
+                        </div>
+
+                        <input class='input' type='date'
+                            name='day_finish' placeholder='Date end for the event'
+                            for='day_finish'>
+
+                            <div>
+                                <label class='label'>
+                                    End HOUR Event
+                                </label>
+                            </div>
+    
+                            <input class='input' type='date'
+                                name='hour_finish' placeholder='Hour finish for the event'
+                                for='hour_finish'>
+
+                        <button class='button is-primary'>
+                            Submit
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
